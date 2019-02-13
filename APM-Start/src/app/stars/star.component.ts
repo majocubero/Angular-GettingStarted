@@ -2,10 +2,10 @@ import {Component, EventEmitter, Input, OnChanges, OnInit, Output} from '@angula
 
 @Component({
   selector: 'pm-star-component',
-  templateUrl: './star-component.component.html',
-  styleUrls: ['./star-component.component.css']
+  templateUrl: './star.component.html',
+  styleUrls: ['./star.component.css']
 })
-export class StarComponentComponent implements OnInit, OnChanges {
+export class StarComponent implements OnInit, OnChanges {
 
   starWidth: number;
   @Input() rating: number;

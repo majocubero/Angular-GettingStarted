@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'pm-welcome-page-component',
-  templateUrl: './welcome-page-component.component.html',
-  styleUrls: ['./welcome-page-component.component.css']
+  templateUrl: './welcome-page.component.html',
+  styleUrls: ['./welcome-page.component.css']
 })
-export class WelcomePageComponentComponent implements OnInit {
+export class WelcomePageComponent implements OnInit {
 
   public pageTitle = 'Welcome';
 
